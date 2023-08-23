@@ -3,7 +3,7 @@ setlocal
 
 :mainMenu
 cls
-title ByteGather
+title ByteGather Shell (ByteShell)
 echo ByteGather [Version 1.1.0.0]
 echo (c) Lucas Gabriel (lucmsilva). All rights reserved.
 echo.

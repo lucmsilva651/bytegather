@@ -11,17 +11,19 @@ The **ByteGather** tool is a simple yet effective solution for downloading files
 ## Usage
 1. Open the ```ByteShell.cmd``` file on your Windows machine.
 
-2. Run the script with the following command, replacing ```<URL>``` with the URL of the file you want to download:
-    ```
-    ByteGather.cmd <URL>
-    ```
+2. Run the script and put the URL of the file you want to download.
 
 3. The tool will start the download process, and once complete, it will display a message indicating the successful download of the file. If the download fails, an error message will be shown.
 
 ## Example
-Suppose you want to download a file named ```example.zip``` from the URL ```https://example.com/downloads/example.zip```. You can use the following command on **ByteShell**:
+Suppose you want to download a file named ```example.zip``` from the URL ```https://example.com/downloads/example.zip```. You can put only the link on **ByteShell**.
+
+Demo:
 ```
-ByteGather.cmd https://example.com/downloads/example.zip
+ByteGather [Version 0.0.0.0]
+(c) Lucas Gabriel (lucmsilva). All rights reserved.
+
+Enter the link to the file: https://example.com/downloads/example.zip
 ```
 
 ## Note

@@ -1,6 +1,6 @@
 @echo off
 
-title ByteGather
+title ByteGather Download (ByteGather)
 
 if "%1"=="" (
     echo Use: %0 ^<URL^>
