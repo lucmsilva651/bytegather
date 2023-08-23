@@ -3,7 +3,7 @@
 title ByteGather
 
 if "%1"=="" (
-    echo [ByteGather] Use: %0 ^<URL^>
+    echo Use: %0 ^<URL^>
     exit /b 1
 )
 
@@ -14,10 +14,10 @@ certutil -urlcache -split -f "%url%" "%filename%" > nul
 
 if %errorlevel% equ 0 (
     echo.
-    echo [ByteGather] Download complete: %filename%
-    echo [ByteGather] Press any key to exit.
+    echo Download complete: "%filename%"
+    echo Press any key to exit.
     pause >nul
 ) else (
-    echo [ByteGather] Download failed by an unknown reason. Press any key to exit.
+    echo Download failed by an unknown reason. Press any key to exit.
     pause >nul
 )
