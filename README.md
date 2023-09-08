@@ -30,5 +30,13 @@ Enter the link to the file: https://example.com/downloads/example.zip
 - **ByteGather** is intended for use on Windows systems.
 - The tool relies on the ```certutil``` command, which is available on most Windows systems by default.
 
+## Windows Defender
+I discovered from a user test that Windows Defender blocks my code for having "malicious content". I still haven't found out why this happens, but I can assure you that my code is 100% clean and virus-free.
+
 ## Disclaimer
 **This tool is provided as-is, and the authors take no responsibility for any unintended usage, damages, or issues that may arise from its use. Users are advised to exercise caution and ensure that they have the necessary permissions to download files from the specified URLs.**
+
+## License
+**2023 - Lucas Gabriel (lucmsilva)** - MIT License
+
+Read the [README.md](https://github.com/lucmsilva651/bytegather?tab=MIT-1-ov-file#readme) file for more details.

@@ -4,7 +4,7 @@ setlocal
 :mainMenu
 cls
 title ByteGather Shell (ByteShell)
-echo ByteGather [Version 1.1.0.0]
+echo ByteGather [Version 1.2.1.0]
 echo (c) Lucas Gabriel (lucmsilva). All rights reserved.
 echo.
 
@@ -39,6 +39,7 @@ pause
 exit
 
 :downloadFile
+echo.
 echo Calling ByteGather to download: %1
 call ByteGather.cmd %1
 exit
