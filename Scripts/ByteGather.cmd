@@ -21,6 +21,9 @@ if %errorlevel% equ 0 (
     cmd /k
 ) else (
     echo.
-    echo Download failed by an unknown reason. Press any key to exit.
+    echo The download of this file failed for an unknown reason.
+    echo You may have forgotten the protocol "https://" at the beginning of the link or this file doesn't exist.
+    echo.
+    echo Press any key to exit.
     pause >nul
 )
