@@ -29,12 +29,12 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
-echo Uninstalling ByteGather/ByteShell...
+echo Uninstalling Byte/ByteShell...
 
-del %SystemRoot%\ByteGather.cmd
-del %SystemRoot%\ByteShell.cmd
+del %SystemRoot%\bdl.cmd
+del %SystemRoot%\bdlcli.cmd
 
-echo ByteGather/ByteShell uninstalled with success!
+echo Byte/ByteShell uninstalled with success!
 echo Press any key to exit.
 pause >nul
 exit

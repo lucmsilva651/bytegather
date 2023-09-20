@@ -3,8 +3,8 @@ setlocal
 
 :mainMenu
 cls
-title ByteGather Shell (ByteShell)
-echo ByteGather [Version 2.1.0.0]
+title ByteCLI Interface
+echo Byte (ByteCLI) [Version 3.0.0.0]
 echo (c) Lucas Gabriel (lucmsilva). All rights reserved.
 echo.
 
@@ -37,5 +37,5 @@ pause
 exit
 
 :downloadFile
-call ByteGather.cmd %1
+call bdl.cmd %1
 exit

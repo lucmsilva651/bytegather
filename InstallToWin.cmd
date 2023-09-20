@@ -29,12 +29,12 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
-echo Installing ByteGather/ByteShell...
+echo Installing Byte/ByteCLI...
 echo.
-copy Scripts\ByteGather.cmd %SystemRoot%
-copy Scripts\ByteShell.cmd %SystemRoot%
+copy Scripts\bdl.cmd %SystemRoot%
+copy Scripts\bdlcli.cmd %SystemRoot%
 echo.
-echo ByteGather/ByteShell installed with success!
+echo Byte/ByteCLI installed with success!
 echo Press any key to exit.
 pause >nul
 exit
