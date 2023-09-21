@@ -4,38 +4,39 @@ setlocal
 :mainMenu
 cls
 title ByteCLI Interface
-echo Byte (ByteCLI) [Version 3.0.0.0]
+echo Byte (ByteCLI) [Version 3.1.0.0]
 echo (c) Lucas Gabriel (lucmsilva). All rights reserved.
 echo.
 
 set "link="
-set /p "link=Enter the link to the file: "
+set /p "link=Enter the download link (or type 'exit' to quit): "
+
+if /i "%link%"=="exit" (
+    echo.
+    echo Goodbye!
+    exit /b
+)
 
 if "%link%"=="" (
     echo.
-    echo You didn't insert a link. Press any key to continue.
+    echo Please provide a valid download link. Press any key to continue.
     pause
     goto mainMenu
 )
 
 echo.
-echo Link provided: %link%
+echo Download link: %link%
 
-set "confirmation="
-set /p "confirmation=Confirm download? (Y/N): "
-
+set /p "confirmation=Do you want to start the download? (Y/N): "
 
 if /i "%confirmation%"=="Y" (
-    call :downloadFile "%link%"
+    echo.
+    echo Downloading... Please wait.
+    call bdl.cmd "%link%"
 ) else (
+    echo.
     echo Download canceled.
-    pause
-    goto mainMenu
 )
 
 pause
-exit
-
-:downloadFile
-call bdl.cmd %1
-exit
+goto mainMenu
