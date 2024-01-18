@@ -4,7 +4,7 @@ setlocal
 :mainMenu
 cls
 title ByteCLI Interface
-echo Byte (ByteCLI) [Version 3.1.0.0]
+echo Byte (ByteCLI) [Version 3.1.2.0]
 echo (c) Lucas Gabriel (lucmsilva). All rights reserved.
 echo.
 

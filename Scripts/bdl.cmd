@@ -1,6 +1,7 @@
 @echo off
 
 if "%~1"=="" (
+    echo Byte 3.1.2.0
     echo Usage: %0 ^<URL^>
     exit /b 1
 )
@@ -16,7 +17,7 @@ if %errorlevel% equ 0 (
 ) else (
     echo.
     echo The download of this file failed for an unknown reason.
-    echo Make sure the URL starts with "https://" and the file exists.
+    echo Make sure the URL starts with the HTTP protocol and the file exists.
     echo.
     echo Press any key to exit.
     pause >nul

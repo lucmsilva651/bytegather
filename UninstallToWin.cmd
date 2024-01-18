@@ -34,6 +34,7 @@ echo Uninstalling Byte/ByteShell...
 del %SystemRoot%\bdl.cmd
 del %SystemRoot%\bdlcli.cmd
 
+echo.
 echo Byte/ByteShell uninstalled with success!
 echo Press any key to exit.
 pause >nul
